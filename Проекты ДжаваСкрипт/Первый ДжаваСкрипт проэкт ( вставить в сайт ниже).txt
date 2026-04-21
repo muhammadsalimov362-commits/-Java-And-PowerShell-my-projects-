@@ -1,0 +1,11 @@
+while (true) {
+    let name = prompt("Как тебя зовут?"); 
+
+    if (name === "Myxa") {
+        alert("Это твой первый проект на JavaScript!");
+        alert("Все работает прямо в браузере!");
+        break;
+    } else {
+        console.log("Привет, " + name);
+    }
+}
